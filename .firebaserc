@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-test-367cb": {
+      "hosting": {
+        "firestarter-demo": [
+          "angular-test-367cb"
+        ]
+      }
+    }
+  }
+}
