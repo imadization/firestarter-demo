@@ -40,12 +40,15 @@
       <button mat-icon-button [matMenuTriggerFor]="menu">
         <mat-icon>more_vert</mat-icon>
       </button>
-      <mat-menu #menu="matMenu">
+      <mat-menu #menu="matMenu" xPosition="before">
         <a mat-menu-item href="https://fireship.page.link/slack">
           <i>💬</i>
           <span>Chat on Slack</span>
         </a>
-        <a mat-menu-item href="https://github.com/codediodeio/angular-firestarter">
+        <a
+          mat-menu-item
+          href="https://github.com/codediodeio/angular-firestarter"
+        >
           <i>💾</i>
           <span>Code on Github</span>
         </a>
@@ -54,7 +57,10 @@
           <span>Full Course on Fireship</span>
         </a>
 
-        <a mat-menu-item href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">
+        <a
+          mat-menu-item
+          href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"
+        >
           <i>📺</i>
           <span>Watch on the YouTube</span>
         </a>
